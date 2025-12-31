@@ -1,16 +1,38 @@
-# React + Vite
+# Weather App 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean React app that shows real-time weather with ambient visual effects.
 
-Currently, two official plugins are available:
+## ✨ Overview
+This app fetches live weather data and displays it with subtle, condition-based background animations.  
+The UI reacts to weather type, temperature, and time of day.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Features
+- Real-time weather data using OpenWeather API
+- Dynamic background animations for rain, snow, clouds, smoke, and sunshine
+- Day/night visual tinting
+- Temperature-based visual intensity
+- Fully responsive layout
 
-## React Compiler
+## 🛠️ Tech Stack
+- React
+- JavaScript
+- OpenWeather API
+- CSS animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌍 Live Demo
+👉 https://Frosty3316.github.io/weather-app
 
-## Expanding the ESLint configuration
+## 📚 What I Learned
+- Working with third-party APIs
+- Mapping real-world data to UI behavior
+- Designing subtle, non-distracting animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Development
+This project was bootstrapped with Vite + React.
+
+To run locally:
+```bash
+npm install
+npm run dev
